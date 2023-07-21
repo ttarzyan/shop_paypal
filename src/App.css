@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -5,6 +6,26 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.navbar_warapper a {
+  padding-left: 30px;
+}
+
+.delete{
+  background-color: red;
+  color: #fcf8f8;  
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline;
+}
+.update{
+  background-color: rgb(125, 239, 94);
+  color: #fcf8f8;  
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
